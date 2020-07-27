@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 const Celebrity = require('../model/Celebrity');
 const Movie = require('../model/Movie');
 
-const dbtitle = 'mongoose-movies';
-mongoose.connect(`mongodb://localhost/${dbtitle}`, {
+mongoose.connect(`mongodb://localhost/starter-code`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
